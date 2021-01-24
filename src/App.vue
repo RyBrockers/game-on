@@ -3,28 +3,35 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+/* flex styles */
+.flex-item {
+  margin: auto;
 }
+.col-12 {
+  width: 100% !important;
+}
+/* flex styles end */
 
+/* navbar styles */
 #nav {
-  padding: 30px;
+  margin: 20px 0 50px 0;
+  text-align: center;
+  font-family: "Roboto", serif;
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 #nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  text-decoration: none;
+  color: #000000;
+  margin: 20px 10px;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+/* navbar styles end */
 </style>
