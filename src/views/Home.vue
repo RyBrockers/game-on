@@ -9,14 +9,16 @@
     </div>
     <div class="container-1">
       <div class="right">
-        <div>
+        <div class="background">
           <h2 class="ta-center">Latest news</h2>
           <div>
-            <ul>
-            <h3>Latest and most recent streams</h3>
-              <li>IMMORTALS: FENYX RISING (Being played on the PS5 on the ROAD TO 100%)</li>
-              <li>DEMONS SOULS (Being played on the PS5 on the ROAD TO 100%)</li>
-            </ul>
+            <h3 class="ta-center">Latest and most recent streams</h3>
+              <p class="ta-center">IMMORTALS: FENYX RISING (Being played on the PS5 on the ROAD TO 100%)
+                 <p class="ta-center"><a href="https://www.youtube.com/watch?v=t5EihjtPRp0&list=PLjLuYHCrULPAAS4VWnpnkIkyCIPofhBON&index=2" target="blank">Check here for the Youtube playlist</a></p>
+              </p>
+              <p class="ta-center">DEMONS SOULS (Being played on the PS5 on the ROAD TO 100%)
+                  <p class="ta-center"><a href="https://www.youtube.com/watch?v=Iz32Be0qAYU&list=PLjLuYHCrULPB8qYrbmErzVBL6nLKaTaDc&index=1" target="blank">Check here for the Youtube playlist</a></p>
+              </p>
           </div>
         </div>
 
@@ -31,14 +33,12 @@
         <div>
           <img src="../../src/assets/cyberpunk.jpg" alt="" />
         </div>
-        <div>
+        <div class="background">
           <h2 class="ta-center">Upcoming Events</h2>
             <div>
-            <ul>
-            <h3>Up coming streams</h3>
-              <li>CYBERPUNK 2077 (Being played on the PC on the ROAD TO 100%)</li>
-              <li>Check back soon for more up coming streams</li>
-            </ul>
+            <h3 class="ta-center">Up coming streams</h3>
+              <p class="ta-center">CYBERPUNK 2077 (Being played on the PC on the ROAD TO 100%)</p>
+              <p class="ta-center">Check back soon for more up coming streams</p>
           </div>
         </div>
       </div>
@@ -78,6 +78,13 @@ export default {
 /* globals and main banner ends */
 
 /* content containers */
+h2 {
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+h3 {
+  text-decoration: underline;
+}
 .container-1 {
   width: 100%;
   margin-bottom: 40px;
@@ -94,7 +101,10 @@ export default {
 }
 
 p {
-  padding: 5px;
+  padding: 10px !important;
+}
+p a {
+  text-decoration: none;
 }
 .right {
   display: flex;
@@ -103,19 +113,12 @@ p {
   flex-direction: row;
   width: 100%;
 }
-/* content containers ends */
-
-/* lists */
-ul {
-  text-align: center;
+.background {
   background: #eee;
 }
-ul h3 {
-  padding: 5px;
-}
-li {
-  padding: 15px;
-}
+/* content containers ends */
+
+
 
 @media only screen and (max-width: 600px) {
   .main-banner img {
