@@ -6,8 +6,7 @@
   <router-view />
   <div class="footer">
     <div class="container-social">
-    <h3>Follow me on Social media</h3>
-
+      <h3>Follow me on Social media</h3>
     </div>
   </div>
 </template>
@@ -35,11 +34,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background: #000000;
 }
 
 #nav a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   margin: 20px 10px;
 }
 /* navbar styles end */
@@ -48,6 +48,7 @@
 
 .footer {
   border-top: 1px solid #000000;
+  font-family: "Roboto", serif;
 }
 .container-social {
   text-align: center;
