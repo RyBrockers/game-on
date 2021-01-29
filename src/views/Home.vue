@@ -8,32 +8,10 @@
         class="ta-center margin-auto"
       />
     </div>
-    <div class="container">
+    <div class="container-1">
       <h2 class="ta-center">Latest news</h2>
-      <div class="stage-1">
-        <div class="left">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            culpa laudantium, ea tempore officia reiciendis sit neque mollitia.
-            Aliquid pariatur sunt blanditiis recusandae voluptatem, distinctio
-            magni officia tempora quas minima! Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Ducimus culpa laudantium, ea tempore
-            officia reiciendis sit neque mollitia. Aliquid pariatur sunt
-            blanditiis recusandae voluptatem, distinctio magni officia tempora
-            quas minima!
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            culpa laudantium, ea tempore officia reiciendis sit neque mollitia.
-            Aliquid pariatur sunt blanditiis recusandae voluptatem, distinctio
-            magni officia tempora quas minima! Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Ducimus culpa laudantium, ea tempore
-            officia reiciendis sit neque mollitia. Aliquid pariatur sunt
-            blanditiis recusandae voluptatem, distinctio magni officia tempora
-            quas minima!
-          </p>
-
+      <div class="right">
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
             culpa laudantium, ea tempore officia reiciendis sit neque mollitia.
@@ -46,41 +24,19 @@
           </p>
         </div>
 
-        <div class="right">
+        <div class="img">
           <img src="https://via.placeholder.com/600x300" alt="" />
         </div>
       </div>
     </div>
     <!-- container 2 -->
-    <div class="container">
+    <div class="container-2">
       <h2 class="ta-center">Upcoming Events</h2>
-      <div class="stage-2">
-        <div class="right">
+      <div class="right">
+        <div>
           <img src="https://via.placeholder.com/600x300" alt="" />
         </div>
-        <div class="left">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            culpa laudantium, ea tempore officia reiciendis sit neque mollitia.
-            Aliquid pariatur sunt blanditiis recusandae voluptatem, distinctio
-            magni officia tempora quas minima! Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Ducimus culpa laudantium, ea tempore
-            officia reiciendis sit neque mollitia. Aliquid pariatur sunt
-            blanditiis recusandae voluptatem, distinctio magni officia tempora
-            quas minima!
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            culpa laudantium, ea tempore officia reiciendis sit neque mollitia.
-            Aliquid pariatur sunt blanditiis recusandae voluptatem, distinctio
-            magni officia tempora quas minima! Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Ducimus culpa laudantium, ea tempore
-            officia reiciendis sit neque mollitia. Aliquid pariatur sunt
-            blanditiis recusandae voluptatem, distinctio magni officia tempora
-            quas minima!
-          </p>
-
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
             culpa laudantium, ea tempore officia reiciendis sit neque mollitia.
@@ -94,6 +50,7 @@
         </div>
       </div>
     </div>
+    <!-- container 2 ends -->
   </div>
 </template>
 
@@ -111,42 +68,41 @@ export default {
 
 
 <style>
-/* globals */
-
-h1 {
-  font-size: 50px;
+.home {
+  font-family: "Roboto", sans-serif;
 }
-h2 {
-  font-size: 30px;
-}
-.ta-center {
+.home h1 {
   text-align: center;
 }
-
-.margin-auto {
-  margin: auto !important;
+.main-banner img {
+  width: 100%;
 }
-
-.main-banner {
+.container-1 {
+  width: 100%;
+}
+.container-1 img {
+  width: 100%;
+}
+.container-2 {
+  width: 100%;
+}
+.container-2 img {
+  width: 100%;
+}
+.right {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 0px;
+  flex-direction: row;
+  width: 100%;
 }
-
-.stage-1 {
+@media only screen and (max-width: 600px) {
+ .right {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  flex-direction: column;
+  width: 100%;
 }
-.stage-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-.left {
-  padding: 10px;
 }
 </style>
