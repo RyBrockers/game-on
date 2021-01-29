@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="ta-center">TheRyBrock</h1>
+    <h1 class="ta-center">TheRyBrock!</h1>
     <div class="main-banner">
       <img
         src="https://via.placeholder.com/1200x330"
