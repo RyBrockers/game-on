@@ -51,7 +51,7 @@
     </div>
     </div>
 
-    <div class="container-4">
+    <!-- <div class="container-4">
       <h2 class="ta-center youtube">Join the latest Stream on Twitch!</h2>
       <div class="iframe-2">
 <iframe
@@ -62,7 +62,7 @@
 </iframe> 
       </div>
 
-</div>
+</div> -->
 
   </div>
 </template>
