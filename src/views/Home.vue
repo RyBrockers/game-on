@@ -44,11 +44,32 @@
       </div>
     </div>
     <!-- container 2 ends -->
+    <div class="container-3">
+      <h2 class="ta-center youtube">Join the latest Playlist on Youtube!</h2>
+    <div class="iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/t5EihjtPRp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="container-4">
+      <h2 class="ta-center youtube">Join the latest Stream on Twitch!</h2>
+      <div class="iframe-2">
+<iframe
+    src="https://player.twitch.tv/?channel=therybrock&parent=localhost&muted=true"
+    height="400"
+    width="600"
+    allowfullscreen="<allowfullscreen>">
+</iframe> 
+      </div>
+
+</div>
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+
 import Main from "@/components/Main.vue";
 
 export default {
@@ -87,7 +108,7 @@ h3 {
 }
 .container-1 {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 .container-1 img {
   margin-left: 40px;
@@ -97,7 +118,7 @@ h3 {
 }
 .container-2 {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 p {
@@ -118,7 +139,44 @@ p a {
 }
 /* content containers ends */
 
+.container-3 {
+  margin: auto;
+  color: #000000;
+  margin-top: 80px;
+}
+.iframe h3.youtube {
+  padding: 10px;
+  font-size: 2em;
+  text-decoration: none;
+}
 
+.iframe {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ed3833;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 50%;
+}
+
+.iframe-2 {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #924CF7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 50%;
+}
 
 @media only screen and (max-width: 600px) {
   .main-banner img {
@@ -129,7 +187,7 @@ p a {
     width: 100%;
     margin: auto;
   }
-   .container-2 img {
+  .container-2 img {
     width: 100%;
     margin: auto;
   }
@@ -142,6 +200,41 @@ p a {
     align-items: center;
     flex-direction: column;
     width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+  .iframe {
+    width: 100% !important;
+    max-width: 80% !important;
+  }
+   .iframe-2{
+    width: 100% !important;
+    max-width: 80% !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+    .iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+    .iframe-2 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .right {
+    display: block !important;
+    width: 100%;
+  }
+  .container-1 img {
+    margin-left: 68px;
+  }
+   .iframe-2{
+    width: 100% !important;
+  }
+  .container-2 img {
+    margin-left: 68px;
+
   }
 }
 </style>
