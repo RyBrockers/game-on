@@ -16,7 +16,10 @@
       <h3>Join the discussions</h3>
       <div class="icons">
         <a href="https://discord.com/channels/805052463006351390/805052463006351393" target="blank"><i class="fab fa-discord"></i></a>
-      </div>
+          <a href="https://www.twitch.tv/therybrock" target="blank"><i class="fab fa-twitch"></i></a>
+          <a href="mailto:r.c_brock@yahoo.com" target="blank"><i class="fas fa-envelope-square"></i></a>
+
+        </div>
     </div>
   
   </div>
@@ -70,8 +73,22 @@
 }
 .container-social {
   text-align: center;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.container-comm {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 .fab {
+  font-size: 40px;
+  padding: 10px;
+}
+.fas {
   font-size: 40px;
   padding: 10px;
 }
@@ -80,5 +97,13 @@
 }
 .fa-discord {
   color: #6E85D3;
+}
+
+.icons .fa-twitch {
+  font-size: 40px;
+
+}
+.fa-envelope-square {
+  color: #fff;
 }
 </style>

@@ -99,9 +99,12 @@ export default {
 /* globals and main banner ends */
 
 /* content containers */
+h1 {
+  font-size: 3em;
+}
 h2 {
   font-weight: bolder;
-  font-size: 2.5em;
+  font-size: 2.1em;
 }
 h3 {
   text-decoration: underline;
@@ -181,13 +184,21 @@ p a {
     .iframe {
     width: 100% !important;
     max-width: 100% !important;
+    padding: 5px;
   }
     .iframe-2 {
     width: 100% !important;
     max-width: 100% !important;
+    padding: 5px;
+  }
+  .container-1 img {
+    margin: 0;
   }
   .right {
     display: block !important;
+    width: 100%;
+  }
+  img {
     width: 100%;
   }
   /* .container-1 img {
