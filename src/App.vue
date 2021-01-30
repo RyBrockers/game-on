@@ -65,6 +65,8 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  background: #000000;
+  color: #ffffff;
 }
 .container-social {
   text-align: center;
