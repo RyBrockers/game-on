@@ -29,8 +29,8 @@
         </p>
         <p>
           I do have a full time day job. I am a front-end web developer for a
-          well know clothing retailer. All the spare time and effort i get goes
-          into this website and the Twitch and Youtubecontent I create. GAME ON!
+          well know clothing retailer. All the spare time and effort I get goes
+          into this website and the Twitch and Youtube content I create. GAME ON!
         </p>
       </div>
       <div class="images">
