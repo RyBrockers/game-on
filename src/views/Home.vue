@@ -250,6 +250,9 @@ p a {
     align-items: center;
     flex-direction: column;
   }
+  .background {
+    padding: 5px;
+  }
 }
 
 </style>

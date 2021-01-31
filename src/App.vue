@@ -98,6 +98,12 @@
 .fa-discord {
   color: #6E85D3;
 }
+.fa-twitch {
+  color: #924cf7;
+}
+.fa-instagram {
+  color: #AF3EB2;
+}
 
 .icons .fa-twitch {
   font-size: 40px;
