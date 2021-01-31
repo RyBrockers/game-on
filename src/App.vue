@@ -21,6 +21,13 @@
 
         </div>
     </div>
+    <div class="container-donate">
+      <h3>Donate to the cause</h3>
+      <div class="icons">
+        <div>paypal.me/brockerz</div>
+        <!-- <a href="#"><i class="fab fa-cc-paypal"></i></a> -->
+      </div>
+    </div>
   
   </div>
 </template>
@@ -84,6 +91,12 @@
   align-items: center;
   flex-direction: column;
 }
+.container-donate {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
 .fab {
   font-size: 30px;
   padding: 10px;
@@ -111,5 +124,8 @@
 }
 .fa-envelope-square {
   color: #fff;
+}
+.fa-cc-paypal {
+  color: #399DDE;
 }
 </style>
