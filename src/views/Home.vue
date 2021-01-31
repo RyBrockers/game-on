@@ -23,7 +23,8 @@
         </div>
 
         <div class="img">
-          <img src="../../src/assets/IMMORTALS-image.jpg" alt="" />
+          <img src="../../src/assets/immortals.jpg" alt="" />
+          <img src="../../src/assets/demons-souls.jpg" alt="" />
         </div>
       </div>
     </div>

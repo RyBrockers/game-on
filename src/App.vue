@@ -85,11 +85,11 @@
   flex-direction: column;
 }
 .fab {
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
 }
 .fas {
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
 }
 .fa-twitter {
@@ -106,7 +106,7 @@
 }
 
 .icons .fa-twitch {
-  font-size: 40px;
+  font-size: 30px;
 
 }
 .fa-envelope-square {
