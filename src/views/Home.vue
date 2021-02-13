@@ -19,12 +19,25 @@
               <p class="ta-center">DEMONS SOULS (Being played on the PS5 on the ROAD TO 100%)
                   <p class="ta-center"><a href="https://www.youtube.com/watch?v=Iz32Be0qAYU&list=PLjLuYHCrULPB8qYrbmErzVBL6nLKaTaDc&index=1" target="blank">Check here for the Youtube playlist</a></p>
               </p>
+
+                <h3 class="ta-center">NEW   *** Just Added ***</h3>
+              <p class="ta-center">BLUE FIRE (Nintendo Switch gameplay)
+                 <p class="ta-center"><a href="https://youtube.com/playlist?list=PLjLuYHCrULPApvaUc3ewkWOQT3fqr5Bsl" target="blank">Check here for the Youtube playlist</a></p>
+              </p>
           </div>
         </div>
 
-        <div class="img">
+        <div class="imges">
+          <div>
           <img src="../../src/assets/immortals.jpg" alt="" />
+          </div>
+          <div>
           <img src="../../src/assets/demons-souls.jpg" alt="" />
+          </div>
+          <div>
+          <img src="../../src/assets/Blue-fire.jpg" alt="" />
+          </div>
+
         </div>
       </div>
     </div>
@@ -180,6 +193,12 @@ p a {
   border-radius: 10px;
   width: 100%;
   max-width: 50%;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 @media only screen and (max-width: 1024px) {
     .iframe {

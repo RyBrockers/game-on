@@ -17,6 +17,23 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
     <script src="https://kit.fontawesome.com/50a5e00efd.js" crossorigin="anonymous"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyDafXqjsoQQ-4binX-xMlt1V57lEy8ULnA",
+        authDomain: "game-on-90f55.firebaseapp.com",
+        projectId: "game-on-90f55",
+        storageBucket: "game-on-90f55.appspot.com",
+        messagingSenderId: "954403667881",
+        appId: "1:954403667881:web:1bd0af4f01117bb6794eb8",
+        measurementId: "G-RJLW7QXGFB"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

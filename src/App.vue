@@ -24,7 +24,7 @@
     <div class="container-donate">
       <h3>Donate to the cause</h3>
       <div class="icons">
-        <div>paypal.me/brockerz</div>
+        <div><a href="https://www.paypal.com/paypalme/brockerz" target="blank">wwww.paypal.me/brockerz</a></div>
         <!-- <a href="#"><i class="fab fa-cc-paypal"></i></a> -->
       </div>
     </div>
