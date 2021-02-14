@@ -49,7 +49,7 @@
           <h2 class="ta-center">Upcoming Events</h2>
             <div>
             <h3 class="ta-center">Up coming streams</h3>
-              <p class="ta-center">CYBERPUNK 2077 (Being played on the PC on the ROAD TO 100%)</p>
+              <p class="ta-center"><span class="game-title">CYBERPUNK 2077</span> (Being played on the PC on the ROAD TO 100%)</p>
               <p class="ta-center">Check back soon for more up coming streams</p>
           </div>
         </div>
