@@ -13,31 +13,29 @@
           <h2 class="ta-center">Latest news</h2>
           <div>
             <h3 class="ta-center">Latest and most recent streams</h3>
-              <p class="ta-center">IMMORTALS: FENYX RISING (Being played on the PS5 on the ROAD TO 100%)
-                 <p class="ta-center"><a href="https://www.youtube.com/watch?v=t5EihjtPRp0&list=PLjLuYHCrULPAAS4VWnpnkIkyCIPofhBON&index=2" target="blank">Check here for the Youtube playlist</a></p>
+               <h3 class="ta-center">NEW   *** Just Added ***</h3>
+              <p class="ta-center">BLUE FIRE (Nintendo Switch gameplay)
+                 <p class="ta-center"><a href="https://youtube.com/playlist?list=PLjLuYHCrULPApvaUc3ewkWOQT3fqr5Bsl" target="blank">Check here for the Youtube playlist</a></p>
               </p>
               <p class="ta-center">DEMONS SOULS (Being played on the PS5 on the ROAD TO 100%)
                   <p class="ta-center"><a href="https://www.youtube.com/watch?v=Iz32Be0qAYU&list=PLjLuYHCrULPB8qYrbmErzVBL6nLKaTaDc&index=1" target="blank">Check here for the Youtube playlist</a></p>
               </p>
-
-                <h3 class="ta-center">NEW   *** Just Added ***</h3>
-              <p class="ta-center">BLUE FIRE (Nintendo Switch gameplay)
-                 <p class="ta-center"><a href="https://youtube.com/playlist?list=PLjLuYHCrULPApvaUc3ewkWOQT3fqr5Bsl" target="blank">Check here for the Youtube playlist</a></p>
+               <p class="ta-center">IMMORTALS: FENYX RISING (NOW COMPLETE. See the full playlist below)
+                 <p class="ta-center"><a href="https://www.youtube.com/watch?v=t5EihjtPRp0&list=PLjLuYHCrULPAAS4VWnpnkIkyCIPofhBON&index=2" target="blank">Check here for the Youtube playlist</a></p>
               </p>
           </div>
         </div>
 
         <div class="imges">
-          <div>
-          <img src="../../src/assets/immortals.jpg" alt="" />
-          </div>
-          <div>
-          <img src="../../src/assets/demons-souls.jpg" alt="" />
-          </div>
-          <div>
-          <img src="../../src/assets/Blue-fire.jpg" alt="" />
-          </div>
-
+            <div>
+            <img src="../../src/assets/Blue-fire.jpg" alt="" />
+            </div>
+            <div>
+            <img src="../../src/assets/demons-souls.jpg" alt="" />
+            </div>
+            <div>
+            <img src="../../src/assets/immortals.jpg" alt="" />
+            </div>
         </div>
       </div>
     </div>
@@ -61,8 +59,7 @@
     <div class="container-3">
       <h2 class="ta-center youtube">Join the latest Playlist on Youtube!</h2>
     <div class="iframe">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/t5EihjtPRp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pewFFmiha-0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
     </div>
 
     <!-- <div class="container-4">
@@ -188,7 +185,7 @@ p a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #924CF7;
+  background: #924cf7;
   padding: 20px;
   border-radius: 10px;
   width: 100%;
@@ -201,12 +198,12 @@ p a {
   flex-direction: column;
 }
 @media only screen and (max-width: 1024px) {
-    .iframe {
+  .iframe {
     width: 100% !important;
     max-width: 100% !important;
     padding: 5px;
   }
-    .iframe-2 {
+  .iframe-2 {
     width: 100% !important;
     max-width: 100% !important;
     padding: 5px;
@@ -224,7 +221,7 @@ p a {
   /* .container-1 img {
     margin-left: 68px;
   } */
-  
+
   /* .container-2 img {
     margin-left: 68px;
   } */
@@ -260,7 +257,7 @@ p a {
     width: 100% !important;
     max-width: 80% !important;
   }
-   .iframe-2{
+  .iframe-2 {
     width: 100% !important;
     max-width: 80% !important;
   }
@@ -274,5 +271,4 @@ p a {
     padding: 5px;
   }
 }
-
 </style>

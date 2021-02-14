@@ -128,4 +128,13 @@
 .fa-cc-paypal {
   color: #399DDE;
 }
+@media only screen and (max-width: 1024px) {
+ .icons {
+   margin-bottom: 10px;
+ }
+ .icons a {
+   text-decoration: none !important;
+   color: #ffffff;
+ }
+}
 </style>
