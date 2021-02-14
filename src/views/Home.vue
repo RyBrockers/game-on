@@ -14,13 +14,13 @@
           <div>
             <h3 class="ta-center">Latest and most recent streams</h3>
                <h3 class="ta-center">NEW   *** Just Added ***</h3>
-              <p class="ta-center">BLUE FIRE (Nintendo Switch gameplay)
+              <p class="ta-center"><span class="game-title">BLUE FIRE</span> (Nintendo Switch gameplay)
                  <p class="ta-center"><a href="https://youtube.com/playlist?list=PLjLuYHCrULPApvaUc3ewkWOQT3fqr5Bsl" target="blank">Check here for the Youtube playlist</a></p>
               </p>
-              <p class="ta-center">DEMONS SOULS (Being played on the PS5 on the ROAD TO 100%)
+              <p class="ta-center"><span class="game-title">DEMONS SOULS</span> (Being played on the PS5 on the ROAD TO 100%)
                   <p class="ta-center"><a href="https://www.youtube.com/watch?v=Iz32Be0qAYU&list=PLjLuYHCrULPB8qYrbmErzVBL6nLKaTaDc&index=1" target="blank">Check here for the Youtube playlist</a></p>
               </p>
-               <p class="ta-center">IMMORTALS: FENYX RISING (NOW COMPLETE. See the full playlist below)
+               <p class="ta-center"><span class="game-title">IMMORTALS: FENYX RISING</span> (NOW COMPLETE. See the full playlist below)
                  <p class="ta-center"><a href="https://www.youtube.com/watch?v=t5EihjtPRp0&list=PLjLuYHCrULPAAS4VWnpnkIkyCIPofhBON&index=2" target="blank">Check here for the Youtube playlist</a></p>
               </p>
           </div>
@@ -196,6 +196,11 @@ p a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.game-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff0000;
 }
 @media only screen and (max-width: 1024px) {
   .iframe {
